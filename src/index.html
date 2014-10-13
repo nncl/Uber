@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Galeria de Fotos</title>
+		<link rel="stylesheet" type="text/css" href="css/style-min.css" />
+		<link rel="shortcut icon" type="icon" href="img/uber.gif" />
+	</head>
+	<body>
+		<!-- CABEÇALHO -->			
+			<div class="caixa-menu">
+				<form>
+					<button type="button" class="menu" id="btn" onclick="mostrar()">Menu</button>
+					<button type="button" class="menu clo" id="close" onclick="fechar()">Fechar</button>
+				</form>
+			</div>
+			<header>
+				
+				<ul class="nav" id="nav">
+					<li><a href="#" title="Home">Home</a></li>
+					<li><a href="#" title="Sobre">Sobre</a></li>
+					<li><a href="#" title="Empresa">Empresa</a></li>
+					<li><a href="#" title="Contato">Contato</a></li>
+				</ul>
+
+				<div class="caixa">
+					<div class="logo">
+						<a href="http://www.uberdigital.com.br" target="_blank" title="Uber Digital"><img src="img/uber-logo.png" alt="Uber Digital" /></a>
+					</div>
+
+					<div class="socials">
+						<ul>
+							<li><a href="#" title="Facebook" target="_blank"><img src="img/fb.png" alt="Facebook" /></a></li>
+							<li><a href="#" title="Twitter" target="_blank"><img src="img/tt.png" alt="Twitter" /></a></li>
+							<li><a href="#" title="Google Plus" target="_blank"><img src="img/gg.png" alt="Google Plus" /></a></li>
+							<li><a href="#" title="Pinterest" target="_blank"><img src="img/pinterest.png" alt="Pinterest" /></a></li>
+							<li><a href="#" title="Ball" target="_blank"><img src="img/ball.png" alt="Ball" /></a></li>
+							<li><a href="#" title="Vimeo" target="_blank"><img src="img/vimeo.png" alt="Vimeo" /></a></li>
+						</ul>
+
+						<form name="form-buscar" id="form-buscar" method="POST">
+							<img src="img/lupa.png" class="lupa" alt="Search" />
+							<input type="text" name="busca" id="busca" placeholder="Search..." />
+						</form>
+					</div>
+				</div>
+			</header>
+		<!-- FIM CABEÇALHO -->
+
+		<!-- CORPO: IMAGENS -->
+			<div class="fotos">  
+				<div class="caixa-fotos">
+					<a href="img/1.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/1-thumb.png" alt="Img01" /></a>
+					<a href="img/2.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/2-thumb.png" alt="Img02" /></a>
+					<a href="img/3.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/3-thumb.png" alt="Img03" /></a>
+					<a href="img/4.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/4-thumb.png" alt="Img04" /></a>
+					<a href="img/5.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/5-thumb.png" alt="Img05" /></a>
+					<a href="img/6.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/6-thumb.png" alt="Img06" /></a>
+					<a href="img/1.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/1-thumb.png" alt="Img07" /></a>
+					<a href="img/2.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/2-thumb.png" alt="Img08" /></a>
+					<a href="img/3.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/3-thumb.png" alt="Img09" /></a>
+					<a href="img/4.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/4-thumb.png" alt="Img10" /></a>
+					<a href="img/5.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/5-thumb.png" alt="Img11" /></a>
+					<a href="img/6.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/6-thumb.png" alt="Img12" /></a>
+					<a href="img/1.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/1-thumb.png" alt="Img13" /></a>
+					<a href="img/2.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/2-thumb.png" alt="Img14" /></a>
+					<a href="img/3.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/3-thumb.png" alt="Img15" /></a>
+					<a href="img/4.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/4-thumb.png" alt="Img16" /></a>
+					<a href="img/5.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/5-thumb.png" alt="Img17" /></a>
+					<a href="img/6.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/6-thumb.png" alt="Img18" /></a>
+					<a href="img/5.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/5-thumb.png" alt="Img19" /></a>
+					<a class="lastpic" href="img/6.png" rel="lightbox[roadtrip]" title="Pequena descrição da galeria"><img src="img/6-thumb.png" alt="Img20" /></a>
+				</div>
+			</div>
+		<!-- FIM  CORPO: IMAGENS -->
+
+		<!-- RODAPÉ -->
+			<footer>
+				<div class="footer-caixa">
+					<div class="caixa2">
+						<p class="titulo">Contato</p>
+						<ul>
+							<li><h3>são paulo</h3></li>
+							<li><span class="cinza">Rua James Watt, 84 - Brooklin</span></li>
+							<li><span class="cinza">São Paulo, 04576-050</span></li>
+							<li class="fone">11 4274 0330</li>
+							<li><a href="mailto:contato@uberdigital.bom.br" title="Contato" class="botao"><img src="img/mail.png" alt="Mail" /><span>contato@uberdigital.com.br</span></a></li>
+						</ul>
+						<ul>
+							<li><h3>new york</h3></li>
+							<li><span class="cinza">19 West 34th Street, Suite #1018</span></li>
+							<li><span class="cinza">New York, New York, 10001</span></li>
+							<li class="fone">+1 646 233 3062</li>							
+						</ul>
+						<ul class="cwb">
+							<li><h3>curitiba</h3></li>
+							<li><span class="cinza">Rua Comendador Araújo Nº 534, Salas 3 e 4</span></li>
+							<li><span class="cinza">Curitiba / PR</span></li>
+							<li class="findus"><h3>find us on</h3></li>
+							<ul class="find">
+								<li><a href="#" title="Facebook" target="_blank"><img src="img/fb-footer.png" alt="Find us on Facebook" /></a></li>
+								<li><a href="#" title="Instagram" target="_blank"><img src="img/instagram-footer.png" alt="Find us on Instagram" /></a></li>
+								<li><a href="#" title="Linkedin" target="_blank"><img src="img/linkedin-footer.png" alt="Find us on Linkedin" /></a></li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		<!-- FIM RODAPÉ -->
+
+		<!-- JS -->
+			<script type="text/javascript" src="js/menu-min.js"></script>
+			<script type="text/javascript" src="js/prototype-min.js"></script>
+			<script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
+			<script type="text/javascript" src="js/lightbox-min.js"></script>		
+	</body>
+</html>
